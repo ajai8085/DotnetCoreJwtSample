@@ -16,6 +16,7 @@ using SampleToken.Services;
 
 namespace SampleToken.Controllers
 {
+    
     [Authorize]
     [Route("[controller]/[action]")]
     public class ManageController : Controller
